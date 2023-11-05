@@ -55,6 +55,9 @@
         </plugins>
              
     </build>
+         
+ <!-- using artifact uploader jenkins
+
          <!-- Deploy to Nexus -->
          <distributionManagement>
                   <repository>
@@ -62,5 +65,5 @@
                            <url>http://172.17.0.1:8081/repository/e-boudhina-repo-mixed-version-policy/</url>
                   </repository>
          </distributionManagement>
-
+ -->
 </project>
