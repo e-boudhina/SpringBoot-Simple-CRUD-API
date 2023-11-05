@@ -53,14 +53,14 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-                    <!-- Deploy to Nexus -->
+             
+    </build>
+         <!-- Deploy to Nexus -->
          <distributionManagement>
                   <repository>
-                  <id>deploymentRepo</id>
-                  <url>http://172.17.0.1:8081/repository/maven-releases/</url>
+                           <id>deploymentRepo</id>
+                           <url>http://172.17.0.1:8081/repository/maven-releases/</url>
                   </repository>
          </distributionManagement>
-    </build>
-  
 
 </project>
