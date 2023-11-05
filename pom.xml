@@ -56,7 +56,7 @@
              
     </build>
          
- <!-- using artifact uploader jenkins
+ /* using artifact uploader jenkins
 
          <!-- Deploy to Nexus -->
          <distributionManagement>
@@ -66,5 +66,5 @@
                   </repository>
          </distributionManagement>
  -->
-          -->
+         */
 </project>
